@@ -1,0 +1,243 @@
+
+ .container {
+ display:inline-flex;
+  min-width: 100%;
+  justify-content: space-evenly;
+
+
+}
+
+.socialmedia {
+  padding-top: 4rem;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.textnormal {
+  font-family: 'Alegreya Sans SC';
+  font-size:20px;
+
+  font-weight: 300;
+width:350px;
+
+
+
+  display: inline-block;
+
+ 
+}
+
+
+.contactpage {
+width: 100%;
+height: 100%;
+text-align: center;
+background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
+
+.homepage {
+width: 100%;
+height: 100%;
+text-align: center;
+background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
+
+
+.mediapage {
+width: 100%;
+height: 100%;
+text-align: center;
+background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
+
+.aboutpage {
+width: 100%;
+height: 100%;
+text-align: center;
+background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
+
+
+
+.kophome {
+margin-top: -.4rem;
+padding-top: .6rem;
+padding-bottom: .6rem;
+font-family: Sandoval, sans-serif;
+border-top: 2px solid #fff;
+letter-spacing: .2rem;
+text-transform: uppercase;
+color: #fff;
+background-color:rgb(255 6 0);
+font-size: 2rem;
+padding-left: 1rem;
+border-bottom: 2px solid #fff
+}
+
+
+.navbar {
+  font-family: 'Alegreya Sans SC';
+  background-color: #171717;
+  display: flex;
+
+
+  justify-content: end;
+  align-items: baseline;
+  font-size: 1rem;
+
+}
+
+.nav-logo {
+  color: red;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Alegreya Sans SC';
+  font-size: 3rem
+}
+
+.texten {
+  color: red;
+  font-family: sandoval;
+  font-size: 22px;
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 10rem
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  height: 100%;
+  border-bottom: 3px solid transparent
+}
+
+.fa-code {
+  margin-left: 1rem
+}
+
+.nav-item {
+  line-height: 40px;
+  margin-right: 1rem
+}
+
+.nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: 0 0;
+
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: #ffdd40
+}
+
+.nav-item .active {
+  color: red;
+  border: 1px solid #ffdd40
+}
+
+.nav-icon {
+  display: none
+}
+
+@media screen and (max-width:960px) {
+  .nav-menu {
+    display: flex;
+    font-family: 'Alegreya Sans SC';
+    align-items: flex-start;
+    flex-direction: column;
+    width: 32%;
+
+    position: absolute;
+    top: 68px;
+    right: 80%;
+    background-color: #171717;
+ 
+  }
+
+  .nav-menu.active {
+ 
+    left: 210;
+    background-color: #171717;
+
+    margin-top: 3rem;
+  
+    border: 2px solid white;
+    z-index: 2;
+    opacity: 90%;
+  }
+
+  .nav-item .active {
+    color: #ffdd40;
+    border: none
+  }
+
+  .nav-links {
+    padding: .5rem;
+    width: 100%;
+    display: table
+  }
+
+  .nav-icon {
+    display: block;
+
+    position: absolute;
+    top: 50px;
+    right: -12;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+    z-index: 2;
+
+  }
+  .nav-horse {
+    display: block;
+    max-width: 50;
+    position: absolute;
+    top: 55px;
+    left: -16;
+    z-index:0;
+
+    cursor: pointer;
+  
+  }
+}
+
+.navbar-logo {
+  max-width: 3.5rem;
+  max-height: 3.5rem;
+  border-radius: 4rem;
+  margin-right: 19.5rem;
+  flex-grow: 1;
+  margin-bottom: 0;
+  color: red;
+  border: 1px solid black
+}
+
+.nav-container {
+
+  height: 3.47rem;
+
+  width: auto;
+ 
+  position: sticky;
+
+}
