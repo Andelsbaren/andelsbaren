@@ -65,7 +65,7 @@ background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 
 margin-top: -.4rem;
 padding-top: .6rem;
 padding-bottom: .6rem;
-font-family: Sandoval, sans-serif;
+font-family: 'sandoval', sans-serif;
 border-top: 2px solid #fff;
 letter-spacing: .2rem;
 text-transform: uppercase;
