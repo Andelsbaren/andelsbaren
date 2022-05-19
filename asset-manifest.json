@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.3e5c0922.chunk.css",
-  "main.js": "/static/js/main.1163a3b1.chunk.js",
-  "main.js.map": "/static/js/main.1163a3b1.chunk.js.map",
+  "main.css": "/static/css/main.afa75fb1.chunk.css",
+  "main.js": "/static/js/main.2a3699f9.chunk.js",
+  "main.js.map": "/static/js/main.2a3699f9.chunk.js.map",
   "static/js/1.3663c346.chunk.js": "/static/js/1.3663c346.chunk.js",
   "static/js/1.3663c346.chunk.js.map": "/static/js/1.3663c346.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -16,8 +16,8 @@
   "static/media/bild5.jpg": "/static/media/bild5.54322788.jpg",
   "static/media/svenskaspel_square.avif": "/static/media/svenskaspel_square.09fea860.avif",
   "static/media/atg-money-icon-rect-60x60-01 (2).svg": "/static/media/atg-money-icon-rect-60x60-01 (2).1fd366a5.svg",
-  "static/css/main.3e5c0922.chunk.css.map": "/static/css/main.3e5c0922.chunk.css.map",
+  "static/css/main.afa75fb1.chunk.css.map": "/static/css/main.afa75fb1.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b4df5e6a9b19e2a02e0b31e088b3b04c.js": "/precache-manifest.b4df5e6a9b19e2a02e0b31e088b3b04c.js",
+  "precache-manifest.5747b2d8aa929338a23a8aec52f011f2.js": "/precache-manifest.5747b2d8aa929338a23a8aec52f011f2.js",
   "service-worker.js": "/service-worker.js"
 }

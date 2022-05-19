@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1163a3b183f415ec2ca7",
-    "url": "/static/css/main.3e5c0922.chunk.css"
+    "revision": "2a3699f9c18419c0e08e",
+    "url": "/static/css/main.afa75fb1.chunk.css"
   },
   {
-    "revision": "1163a3b183f415ec2ca7",
-    "url": "/static/js/main.1163a3b1.chunk.js"
+    "revision": "2a3699f9c18419c0e08e",
+    "url": "/static/js/main.2a3699f9.chunk.js"
   },
   {
     "revision": "3663c34688c253564f83",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/atg-money-icon-rect-60x60-01 (2).1fd366a5.svg"
   },
   {
-    "revision": "941d55fb60255e9c300d25962ce53677",
+    "revision": "2a05813752bacb4b16b2fbdcebb0b9cf",
     "url": "/index.html"
   }
 ];
