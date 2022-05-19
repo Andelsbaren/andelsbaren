@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.ad5038cc.chunk.css",
-  "main.js": "/static/js/main.77bce324.chunk.js",
-  "main.js.map": "/static/js/main.77bce324.chunk.js.map",
-  "static/js/1.6da4cb9d.chunk.js": "/static/js/1.6da4cb9d.chunk.js",
-  "static/js/1.6da4cb9d.chunk.js.map": "/static/js/1.6da4cb9d.chunk.js.map",
+  "main.css": "/static/css/main.100b2819.chunk.css",
+  "main.js": "/static/js/main.1fb17941.chunk.js",
+  "main.js.map": "/static/js/main.1fb17941.chunk.js.map",
+  "static/js/1.3663c346.chunk.js": "/static/js/1.3663c346.chunk.js",
+  "static/js/1.3663c346.chunk.js.map": "/static/js/1.3663c346.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/bild1.jpg": "/static/media/bild1.d57076be.jpg",
@@ -15,9 +15,9 @@
   "static/media/bild8.jpg": "/static/media/bild8.41a32fa3.jpg",
   "static/media/bild5.jpg": "/static/media/bild5.54322788.jpg",
   "static/media/svenskaspel_square.avif": "/static/media/svenskaspel_square.09fea860.avif",
-  "static/media/atg-money-icon-rect-60x60-01 (2).svg": "/static/media/atg-money-icon-rect-60x60-01 (2).bfa1121b.svg",
-  "static/css/main.ad5038cc.chunk.css.map": "/static/css/main.ad5038cc.chunk.css.map",
+  "static/media/atg-money-icon-rect-60x60-01 (2).svg": "/static/media/atg-money-icon-rect-60x60-01 (2).1fd366a5.svg",
+  "static/css/main.100b2819.chunk.css.map": "/static/css/main.100b2819.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.d9fc6ea0306dbf1559de901f02997a7c.js": "/precache-manifest.d9fc6ea0306dbf1559de901f02997a7c.js",
+  "precache-manifest.1a720971841d5e65c76f2b00bf3d829a.js": "/precache-manifest.1a720971841d5e65c76f2b00bf3d829a.js",
   "service-worker.js": "/service-worker.js"
 }
