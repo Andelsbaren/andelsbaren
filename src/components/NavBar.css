@@ -170,7 +170,7 @@ border-bottom: 2px solid #fff
     font-family: 'Alegreya Sans SC';
     align-items: flex-start;
     flex-direction: column;
-    width: 32%;
+   
 
     position: absolute;
     top: 61.5px;
@@ -181,11 +181,9 @@ border-bottom: 2px solid #fff
 
   .nav-menu.active {
  
-    left: 210;
     background-color: #171717;
-
-    margin-top: 3rem;
-  
+right:-20%;
+  margin-top:3rem;
     border: 2px solid white;
     z-index: 2;
   
@@ -197,8 +195,7 @@ border-bottom: 2px solid #fff
   }
 
   .nav-links {
-    padding: .5rem;
-    width: 100%;
+  
     display: table
   }
 
