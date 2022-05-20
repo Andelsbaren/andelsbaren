@@ -5,11 +5,11 @@
 @import url('http://fonts.cdnfonts.com/css/sandoval');
 
 .fa {
-    color: #125d8b;
+    color: white;
 }
 
 .fa-brands{
-    color: #1DA1F2;
+    color: rgb(13, 172, 245);
 }
 
 .fa-brands:hover{

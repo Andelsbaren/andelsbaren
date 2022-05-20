@@ -1,7 +1,8 @@
 @import url('http://fonts.cdnfonts.com/css/sandoval');
 
+@media screen and (min-width:320px) {
 
-
+  
 
 .socialmedia {
   padding-top: 4rem;
@@ -17,7 +18,9 @@
 width: 100%;
 height: 100%;
 text-align: center;
-background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%)
+
+
+
 }
 
 
@@ -28,7 +31,45 @@ text-align: center;
 
 }
 
+.kophome2 {
+  display: flex;
+  justify-content: center;
+  margin-top: -.4rem;
+  
+  padding-bottom: .6rem;
+  font-family: 'Sandoval', sans-serif;
+  border-top: 3px solid white;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  color: white;
+opacity: 85%;
+  background-color:red;
+  font-size: 2.1rem;
+  padding-left: 1rem;
+  border-bottom: 3px solid white;
+  
 
+  }
+  
+.kophome3 {
+  display: flex;
+  justify-content: center;
+  margin-top: -.4rem;
+  
+  padding-bottom: .6rem;
+  font-family: 'Sandoval', sans-serif;
+  border-top: 3px solid white;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  color:white;
+  opacity: 85%;
+  background-color:#052e46;
+  font-size: 2.4rem;
+  padding-left: 1rem;
+  border-bottom: 3px solid white;
+  
+
+  }
 
 
 
@@ -36,17 +77,20 @@ text-align: center;
 display: flex;
 justify-content: center;
 margin-top: -.4rem;
-padding-top: .6rem;
+
 padding-bottom: .6rem;
 font-family: 'sandoval';
-border-top: 2px solid #fff;
+border-top: 0px solid red;
 letter-spacing: .2rem;
 text-transform: uppercase;
-color: #fff;
-background-color:rgb(255 6 0);
-font-size: 2rem;
+color: white;
+
+background-color:transparent;
+font-size: 2.1rem;
 padding-left: 1rem;
-border-bottom: 2px solid #fff
+border-bottom: 2px solid white;
+
+
 }
 
 
@@ -129,6 +173,7 @@ border-bottom: 2px solid #fff
 .nav-icon {
   display: none
 }
+}
 
 @media screen and (max-width:960px) {
   .nav-menu {
@@ -193,7 +238,7 @@ border-bottom: 2px solid #fff
     position: absolute;
     top: 55px;
     right: 20;
-    z-index:0;
+    z-index:1;
 
     cursor: pointer;
   
@@ -219,4 +264,26 @@ border-bottom: 2px solid #fff
  
   position: sticky;
 
+}
+@media (min-width: 1024px){
+  .kophome {
+    display: flex;
+    justify-content: center;
+    margin-top: -.4rem;
+    
+    padding-bottom: .6rem;
+    font-family: 'sandoval';
+    border-top: 3px solid white;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: white;
+    
+    background-color:transparent;
+    font-size: 2.1rem;
+    padding-left: 1rem;
+
+    
+    
+    }
+  
 }

@@ -7,7 +7,7 @@ class AbousUs extends Component {
   <div className="aboutpage">
 
 
-      <p className="kophome">Om OSS</p>
+      <p className="kophome3">Om OSS</p>
          <p class="textabout"> Andelsbaren samarbetar med ATG- och Svenska Spel ombudet<br/><span class="textcolor2"> Spelhörnan i 
                    Surahammar.</span><br/><br/><hr></hr>
                

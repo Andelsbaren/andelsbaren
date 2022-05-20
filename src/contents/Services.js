@@ -7,7 +7,7 @@ class Services extends Component {
     render() {
         return (
             <div className="servicespage">
-      <p className="kophome">Köp andelar</p>
+      <p className="kophome2">Köp andelar</p>
             {/* <img
           className="navbar-logo"
           src={img1}/> */}

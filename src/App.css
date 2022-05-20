@@ -18,6 +18,8 @@
 .aboutpage {
   width: 100%;
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 /* background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%) */
 background-image: url('/src/img/stor.webp');
 
@@ -41,7 +43,7 @@ font-weight: 700;
 
 body {
   margin: 0 auto;
-  background-color: #ffffff;
+  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%)
 
  
 }
@@ -129,7 +131,7 @@ width: 90%;
  }
 
   .textnormal2 {
-    color:#171717;
+    color:white;
     font-family: 'Alegreya Sans SC';
     font-size:24px;
     margin-top:22rem;
@@ -139,19 +141,19 @@ width:350px;
   
   }
   .textabout {
-  padding: 1rem;
-  font-family: 'Alegreya Sans SC';
-color:rgb(255, 255, 255);
-height:100%;
-    font-weight: 300;
-width:100%;
-background-color: #014F9F;
-padding:5rem;
-font-size: 26px;
-display: inline-block;
-border: 1px solid white;
-border-radius: 1rem;
-box-shadow: 2px 2px 2px 2px white;
+    padding: 1rem;
+    font-family: 'Alegreya Sans SC';
+  color:black(255, 255, 255);
+  height:40%;
+      font-weight: 600;
+  width:500px;
+  padding:5rem;
+  opacity: 80%;
+  font-size: 26px;
+  display: inline-block;
+  background-color: white;
+  border: 3px solid red;
+  border-radius: 1rem;
 
 
   
@@ -237,6 +239,9 @@ justify-content: space-evenly;
 
 .aboutpage {
   width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 /* background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%) */
 background-image: url('/src/img/stor.webp');
@@ -278,8 +283,8 @@ box-shadow: 2px 2px 0px 0px rgba(255, 0, 0, 0.836);
 .textnormal2 {
   font-family: 'Alegreya Sans SC';
   font-size:22px;
-  color:#171717;
-  margin-top:7rem;
+  color:white;
+  margin-top:8rem;
     font-weight: 500;
 width:350px;
   display: inline-block;
@@ -337,7 +342,7 @@ background-size:contain ;
 .textnormal2 {
   font-family: 'Alegreya Sans SC';
   font-size:26px;
-  color:#171717;
+  color:white;
   margin-top:15rem;
     font-weight: 600;
 width:350px;
@@ -401,6 +406,8 @@ height: auto;
     width: 100%;
     height: 100%;
       text-align: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     /* background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%) */
     background-image: url('/src/img/stor.webp');
 }
