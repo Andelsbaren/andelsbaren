@@ -28,6 +28,7 @@ class Services extends Component {
           src={img1}/>
       </a>
            </section>
+           <div className="container2"> 
            <section className='atg-button'>
 
       <a href="https://www.atg.se/spelhornansurahammar" target="_blank">
@@ -35,9 +36,9 @@ class Services extends Component {
           className="atg-button"
           src={img2}/>
       </a>
-         </section> 
-    </div>
-
+         </section>
+         </div>    </div><br/>
+    <hr class="hr2"></hr> <hr class="hr3"></hr>
   </div>
             )
         }

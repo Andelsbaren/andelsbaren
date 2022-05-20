@@ -15,9 +15,6 @@ class Media extends Component {
 
 
 
-
-
-
             </div>
             
             )

@@ -1,12 +1,15 @@
-
+@font-face {
+    font-family: 'Sandoval', sans-serif;
+    src: url(./sandoval.ttf);
+  }
 @import url('http://fonts.cdnfonts.com/css/sandoval');
 
 .fa {
-    color: white;
+    color: #125d8b;
 }
 
 .fa-brands{
-    color: white;
+    color: #1DA1F2;
 }
 
 .fa-brands:hover{
@@ -22,10 +25,7 @@ html {
 }
 
 
-@font-face {
-    font-family: 'Sandoval', sans-serif;
-    src: url(./sandoval.ttf);
-  }
+
 section {
     text-align: justify
 }
