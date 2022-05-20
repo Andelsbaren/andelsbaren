@@ -1,11 +1,7 @@
-
- .container {
- display:inline-flex;
-  min-width: 100%;
-  justify-content: space-evenly;
+@import url('http://fonts.cdnfonts.com/css/sandoval');
 
 
-}
+
 
 .socialmedia {
   padding-top: 4rem;
@@ -15,32 +11,7 @@
   justify-content: space-evenly
 }
 
-.textnormal2 {
-  font-family: 'Alegreya Sans SC';
-  font-size:20px;
-  margin-top:6rem;
-    font-weight: 300;
-width:350px;
-  display: inline-block;
 
-}
-.textnormal {
-  font-family: 'Alegreya Sans SC';
-  font-size:20px;
-    font-weight: 300;
-width:350px;
-
-  display: inline-block;
-
-}
-
-
-.contactpage {
-width: 100%;
-height: 100%;
-text-align: center;
-background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%);
-}
 
 .homepage {
 width: 100%;
@@ -57,12 +28,7 @@ text-align: center;
 background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
 }
 
-.aboutpage {
-width: 100%;
-height: 100%;
-text-align: center;
-background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
-}
+
 
 
 

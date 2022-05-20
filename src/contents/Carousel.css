@@ -124,8 +124,68 @@ margin-top:  2rem;
       color: white;
     }
 
- 
+  }
+
+  @media only screen and (min-width :577px) and (max-width :1024px) and (orientation :portrait){
 
 
+
+    .carousel{
+    display: inline-block;
+      overflow: hidden;
+  height: 100%;
+  width: 90%;
+  border-radius: 1rem;
+  border: 3px solid white;
 
   }
+
+.inner{
+    white-space: nowrap;
+    transition: transform 0.3s;
+    margin-bottom:  1.7rem;
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: stretch;
+    justify-content: center;
+ height: 39%;
+    background-color: none;
+    color: #fff;
+    flex-direction: column-reverse;
+
+ 
+  
+}
+.indicators {
+  display: inline-flex;
+  justify-content: center;
+  padding-top:7rem;
+
+  
+  
+}
+
+.indicators > button {
+
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+  font-family: 'sandoval';
+}
+
+.indicators > button:hover{
+  transform: scale(1.1);
+}
+
+.indicators > button.active {
+  background-color: black;
+  color: white;
+}
+
+
+    }
+
+
+  
