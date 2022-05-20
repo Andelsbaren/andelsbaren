@@ -1,6 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/sandoval');
 
-@import url('./sandoval.ttf');
 
 
 .socialmedia {
@@ -38,7 +37,7 @@ justify-content: center;
 margin-top: -.4rem;
 padding-top: .6rem;
 padding-bottom: .6rem;
-font-family: 'sandoval';
+font-family: 'Sandoval', sans-serif;
 border-top: 2px solid #fff;
 letter-spacing: .2rem;
 text-transform: uppercase;
@@ -75,7 +74,7 @@ border-bottom: 2px solid #fff
 
 .texten {
   color: red;
-  font-family: 'sandoval';
+  font-family: 'Sandoval', sans-serif;
   font-size: 22px;
   flex-grow: 1;
   align-items: center;

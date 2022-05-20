@@ -42,7 +42,7 @@ margin-top:  2rem;
     background-color: red;
     color: white;
     border-radius: 15px;
-    font-family: 'sandoval';
+    font-family: 'Sandoval', sans-serif;
 
   
   }
@@ -110,7 +110,7 @@ margin-top:  2rem;
       background-color: red;
       color: white;
       border-radius: 15px;
-      font-family: 'sandoval';
+      font-family: 'Sandoval', sans-serif;
   
     
     }
@@ -172,7 +172,7 @@ margin-top:  2rem;
   background-color: red;
   color: white;
   border-radius: 15px;
-  font-family: 'sandoval';
+  font-family: 'Sandoval', sans-serif;
 }
 
 .indicators > button:hover{
