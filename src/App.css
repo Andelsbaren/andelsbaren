@@ -36,7 +36,7 @@ font-weight: 700;
 body {
   margin: 0 auto;
 
-  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+ 
 }
 .feed {
   display: flex;
@@ -78,7 +78,7 @@ p {
   
  .container {
   display:inline-flex;
-
+  height:100%;
 width: 90%;
    justify-content: center;
 
@@ -149,6 +149,7 @@ height:40%;
 .container{
 display:flex;
 justify-content: space-evenly;
+height:100%
 }
 
 
@@ -246,11 +247,11 @@ width:350px;
 .servicespage{
 
   width: 100%;
-
+height:52%;
   text-align: center;
   background-image: url('./img/samarberte.png');
-  background-position:top;
-  background-position-y: top;
+  background-position:bottom;
+
 background-repeat: no-repeat;
 background-size:contain ;
 }
@@ -262,10 +263,10 @@ background-size:contain ;
 
 .textnormal2 {
   font-family: 'Alegreya Sans SC';
-  font-size:24px;
+  font-size:26px;
   color:#171717;
   margin-top:20rem;
-    font-weight: 400;
+    font-weight: 500;
 width:350px;
   display: inline-block;
 
@@ -298,8 +299,16 @@ display: inline-block;
   .container{
     display:flex;
     justify-content: space-evenly;
+
+
   }
+
+  .aboutpage {
+    width: 100%;
+      text-align: center;
+    background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
 
 }
 
 
+}

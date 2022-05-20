@@ -53,7 +53,7 @@ function NavBar() {
               Media
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink
               exact
               to="/contact"
@@ -63,7 +63,7 @@ function NavBar() {
             >
               Andelsspel
             </NavLink>
-          </li>
+          </li> */}
         </ul>
         <div className="nav-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
