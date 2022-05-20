@@ -27,10 +27,8 @@ body {
 }
 .feed {
   display: flex;
-
-
-
-  justify-content: center
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 
@@ -76,11 +74,9 @@ p {
 @media (max-width:576px) {
   .feed {
     display: flex;
-
- 
-
     justify-content: center
   }
+
   .contactpage {
     width: 100%;
     height: 100%;

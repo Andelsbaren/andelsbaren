@@ -104,8 +104,8 @@ footer ul li {
         display: flex;
         color: #fff;
         width: 100%;
-        justify-content: space-between
-    }
+        justify-content: space-evenly;
+         }
 }
 
 @media only screen and (min-width :768px) and (max-width :1024px) and (orientation :portrait) {
@@ -119,6 +119,15 @@ footer ul li {
         width: 100%;
         padding-bottom: 1em
     }
+    
+    footer {
+        padding-right: 1em;
+        padding-left: 1em;
+        position: fixed;
+        width: 100%;
+
+   
+    }
 }
 
 @media only screen and (min-width :768px) and (max-width :1024px) and (orientation :landscape) {
@@ -130,6 +139,15 @@ footer ul li {
         display: block;
         width: 100%;
         padding-bottom: 1em
+    }
+    
+    footer {
+        padding-right: 1em;
+        padding-left: 1em;
+        position: fixed;
+        width: 100%;
+   
+   
     }
 
     footer .row {
@@ -146,15 +164,21 @@ footer ul li {
         width: 100%;
         padding-bottom: 1em
     }
-
+    
+    footer {
+        padding-right: 1em;
+        padding-left: 1em;
+        position: fixed;
+        width: 100%;
+      
+   
+    }
     .col-6 {
         width: 100%;
         display: block
     }
 
-    footer {
-        position: fixed
-    }
+    
 }
 
 @media only screen and (max-width :480px) {
