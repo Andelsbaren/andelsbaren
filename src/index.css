@@ -119,6 +119,11 @@ footer ul li {
         width: 100%;
         padding-bottom: 1em
     }
+
+    .textnormal2{
+        padding-left: 13rem;
+
+    }
 }
 
 @media only screen and (min-width :768px) and (max-width :1024px) and (orientation :landscape) {
