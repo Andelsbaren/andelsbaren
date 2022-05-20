@@ -22,7 +22,10 @@ html {
 }
 
 
-
+@font-face {
+    font-family: 'Sandoval', sans-serif;
+    src: url(./sandoval.ttf);
+  }
 section {
     text-align: justify
 }

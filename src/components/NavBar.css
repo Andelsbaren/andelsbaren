@@ -1,5 +1,8 @@
 @import url('http://fonts.cdnfonts.com/css/sandoval');
-
+@font-face {
+  font-family: 'Sandoval', sans-serif;
+  src: url(./sandoval.ttf);
+}
 
 
 .socialmedia {

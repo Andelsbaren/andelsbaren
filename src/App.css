@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: 'Sandoval', sans-serif;
+  src: url(./sandoval.ttf);
+}
  @import url('http://fonts.cdnfonts.com/css/sandoval');
 
 
