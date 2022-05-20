@@ -11,9 +11,9 @@ class AbousUs extends Component {
                    Surahammar.</span><br/><br/><hr></hr>
         <br></br>
           Vi erbjuder en rad olika spel på trav och sport.
-    <p><hr></hr>
+    <p class="textabout"><hr></hr>
   Vi har flera av landets bästa spelläggare som komponerar spel på
-          sajten    <span class="textcolor"> ATG-Tillsammans  </span>   och på  <span class="textcolor2">Svenska Spel Tillsammans.  </span>  
+          sajten    <span class="textcolor3"> ATG-Tillsammans  </span>   och på  <span class="textcolor3">Svenska Spel Tillsammans.  </span>  
           </p>
 
         </p>

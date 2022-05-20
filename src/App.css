@@ -21,7 +21,7 @@ text-align: center;
   font-weight: bold;
 }
 .textcolor2{
-  color:var(--color-2);
+  color:black;
 font-weight: bold;
 }
 .textcolor3{
@@ -43,7 +43,7 @@ body {
 
 p {
   font-family: 'Alegreya Sans SC', sans-serif;
-  color: #fff;
+  color: #171717;
 
   font-weight: 500;
   padding: .5rem
@@ -74,7 +74,7 @@ p {
   
  .container {
   display:inline-flex;
-height:100%;
+
 width: 90%;
    justify-content: center;
 
@@ -92,7 +92,7 @@ width:350px;
   }
   .textabout {
     font-family: 'Alegreya Sans SC';
-    color:#171717;
+    color:white;
       font-weight: 300;
   width:500px;
   font-size: 26px;
@@ -121,6 +121,23 @@ height:40%;
   background-repeat: no-repeat;
   background-size:contain ;
   }
+
+  .textnormal{
+    font-size: 26px;
+    color:white;
+  }
+  .contactpage {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%);
+    }
+
+
+
+
+
+
 }
 
 @media (max-width:576px) {
@@ -208,7 +225,12 @@ width:350px;
 
 }
 
-
+.textabout{
+  color:white
+}
+.textnormal{
+  color:white
+}
 
 
 
@@ -229,6 +251,10 @@ background-repeat: no-repeat;
 background-size:contain ;
 }
 
+.textnormal{
+  color:white;
+}
+
 
 .textnormal2 {
   font-family: 'Alegreya Sans SC';
@@ -242,7 +268,7 @@ width:350px;
 }
 .textabout {
   font-family: 'Alegreya Sans SC';
-
+color:white;
     font-weight: 300;
 width:500px;
 font-size: 26px;
@@ -271,7 +297,5 @@ display: inline-block;
   }
 
 }
-
-
 
 
