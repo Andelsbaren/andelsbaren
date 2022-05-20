@@ -1,5 +1,8 @@
-@import url('http://fonts.cdnfonts.com/css/sandoval');
 
+ @import url('http://fonts.cdnfonts.com/css/sandoval');
+ @import url('./sandoval.ttf');
+
+                
 
 :root {
   --color-1: #186cb8;
