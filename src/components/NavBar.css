@@ -181,11 +181,20 @@ border-bottom: 2px solid #fff
 
   .nav-menu.active {
  
-    background-color: #171717;
-right:-20%;
-  margin-top:3rem;
-    border: 2px solid white;
-    z-index: 2;
+    visibilty: hidden;
+    position: fixed;
+    top: 96px;
+    left: 0px;
+    width: 100px;
+    border: 1px solid white;
+    opacity: 90%;
+    display:flex;
+
+    justify-content: flex-start;
+    background-color: #052e46;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    z-index:1;
   
   }
 
@@ -204,7 +213,7 @@ right:-20%;
 
     position: absolute;
     top: 50px;
-    right: -12;
+    left: 40;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -217,7 +226,7 @@ right:-20%;
     max-width: 50;
     position: absolute;
     top: 55px;
-    left: -16;
+    right: 20;
     z-index:0;
 
     cursor: pointer;
@@ -226,8 +235,8 @@ right:-20%;
 }
 
 .navbar-logo {
-  max-width: 3.5rem;
-  max-height: 3.5rem;
+  max-width: 3rem;
+  max-height: 3rem;
   border-radius: 4rem;
   margin-right: 19.5rem;
   flex-grow: 1;
