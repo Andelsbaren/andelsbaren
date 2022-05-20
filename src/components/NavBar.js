@@ -73,7 +73,7 @@ function NavBar() {
               <NavLink to="/" className="home-button">  
               <img
           className="navbar-logo"
-          src={img1} alt="" onClick={handleClick} /> 
+          src={img1} alt="" onClick={!handleClick} /> 
           </NavLink>
           </div>
       </nav>
