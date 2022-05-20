@@ -15,15 +15,16 @@
   justify-content: space-evenly
 }
 
-.textnormal {
+.textnormal2 {
   font-family: 'Alegreya Sans SC';
   font-size:20px;
+  margin-top:4rem;
     font-weight: 300;
 width:350px;
   display: inline-block;
 
 }
-.textnormal2 {
+.textnormal {
   font-family: 'Alegreya Sans SC';
   font-size:20px;
     font-weight: 300;
