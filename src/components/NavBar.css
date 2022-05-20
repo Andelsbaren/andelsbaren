@@ -39,7 +39,7 @@ width:350px;
 width: 100%;
 height: 100%;
 text-align: center;
-background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%);
 }
 
 .homepage {
@@ -67,6 +67,8 @@ background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 
 
 
 .kophome {
+display: flex;
+justify-content: center;
 margin-top: -.4rem;
 padding-top: .6rem;
 padding-bottom: .6rem;
