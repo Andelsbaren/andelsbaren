@@ -18,15 +18,19 @@
 .textnormal {
   font-family: 'Alegreya Sans SC';
   font-size:20px;
-
-  font-weight: 300;
+    font-weight: 300;
 width:350px;
-
-
-
   display: inline-block;
 
- 
+}
+.textnormal2 {
+  font-family: 'Alegreya Sans SC';
+  font-size:20px;
+    font-weight: 300;
+width:350px;
+margin-top:4rem;
+  display: inline-block;
+
 }
 
 

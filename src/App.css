@@ -115,7 +115,7 @@ p {
   height: 100%;
 
   text-align: center;
-  background-image: url('/src/img/samarberte.png');
+  background-image: url('./img/samarberte.png');
   background-position:top;
   background-position-y: top;
 background-repeat: no-repeat;

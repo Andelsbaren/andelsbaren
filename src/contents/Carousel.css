@@ -71,6 +71,7 @@ margin-top:  2rem;
       white-space: nowrap;
       transition: transform 0.3s;
 
+
       height: auto;
 
       width: 100%;
@@ -81,7 +82,7 @@ margin-top:  2rem;
       align-items: stretch;
       justify-content: center;
     
-      background-color: none;
+    
       color: #fff;
       flex-direction: column-reverse;
       margin-top: -1rem;
@@ -90,8 +91,9 @@ margin-top:  2rem;
     
   }
   .Media{
-    height: 10rem;
+   
     width:100%;
+
     padding:1rem;
   
   }
@@ -120,4 +122,9 @@ margin-top:  2rem;
       background-color: black;
       color: white;
     }
+
+ 
+
+
+
   }
