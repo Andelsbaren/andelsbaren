@@ -83,7 +83,7 @@ justify-content: center;
 margin-top: -.4rem;
 
 padding-bottom: .6rem;
-font-family: 'sandoval';
+font-family: 'Sandoval', sans-serif;
 border-top: 0px solid red;
 letter-spacing: .2rem;
 text-transform: uppercase;
@@ -123,7 +123,7 @@ border-bottom: 2px solid white;
 
 .texten {
   color: red;
-  font-family: 'sandoval';
+  font-family: 'Sandoval', sans-serif;
   font-size: 22px;
   flex-grow: 1;
   align-items: center;
@@ -276,7 +276,7 @@ font-size: 23px;
     margin-top: -.4rem;
     
     padding-bottom: .6rem;
-    font-family: 'sandoval';
+    font-family: 'Sandoval', sans-serif;
     border-top: 3px solid white;
     letter-spacing: .2rem;
     text-transform: uppercase;
