@@ -12,7 +12,7 @@
   --color-2: red;
   --color-4: #f1b211;
   --color-3: #027b9a;
-  --color-5: #000;
+  --color-5: #171717;
 
 }
 .aboutpage {
@@ -43,22 +43,22 @@ font-weight: 700;
 
 body {
   margin: 0 auto;
-  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%)
+  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%)
 
  
 }
 .hr2{
 
-  width: 90%;
-  height:5px;
+  width: 80%;
+  height:1px;
   background-color: #014F9F;
 
 }
 
 .hr3{
 
-  width: 80%;
-  height:5px;
+  width: 70%;
+  height:1px;
   background-color: red;
 
 
@@ -66,7 +66,7 @@ body {
 .hr4{
   transform: rotate(45deg);
   width: 200px;
-  height:5px;
+  height:1px;
   background-color: #014F9F;
 margin-top:2rem;
 
@@ -76,7 +76,7 @@ margin-bottom:1rem;
 .hr5{
   transform: rotate(45deg);
   width: 50px;
-  height:5px;
+  height:1px;
   background-color: red;
   margin-top:4rem;
 
@@ -134,7 +134,7 @@ width: 90%;
     color:white;
     font-family: 'Alegreya Sans SC';
     font-size:24px;
-    margin-top:22rem;
+    margin-top:16rem;
       font-weight: 300;
 width:350px;
     display: inline-flex;
@@ -225,7 +225,7 @@ justify-content: space-evenly;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4%, var(--color-2) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%)
   }
 
 
@@ -233,7 +233,7 @@ justify-content: space-evenly;
   width: 100%;
   height: 100%;
   text-align: center;
-  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%)
+  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%)
 
 }
 
@@ -416,7 +416,7 @@ height: auto;
   width: 100%;
   height: 100%;
   text-align: center;
-  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%)
+  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%)
 
 }
 
