@@ -1,7 +1,9 @@
-  
 @font-face {
   font-family: 'Sandoval', sans-serif;
-  src: url('http://fonts.cdnfonts.com/css/sandoval');}
+  src: local('Sandoval'), url(./fonts/Sandoval.woff2) format('woff2');
+
+}  
+
 
 
 
@@ -50,7 +52,7 @@ body {
 .hr2{
 
   width: 80%;
-  height:1px;
+  height:3px;
   background-color: #014F9F;
 
 }
@@ -58,7 +60,7 @@ body {
 .hr3{
 
   width: 70%;
-  height:1px;
+  height:3px;
   background-color: red;
 
 
