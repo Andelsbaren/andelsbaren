@@ -1,4 +1,6 @@
-@import url('http://fonts.cdnfonts.com/css/sandoval');
+@font-face {
+  font-family: 'Sandoval', sans-serif;
+  src: url('http://fonts.cdnfonts.com/css/sandoval');}
 
 @media screen and (min-width:320px) {
 
