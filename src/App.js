@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import './sandoval.ttf'
+import './Sandoval.woff2'
 import {
   BrowserRouter as Router,
   Route,
