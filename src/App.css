@@ -436,5 +436,11 @@ height: auto;
   height: 100%;
   box-shadow: 2px 3px 1px 3px red;
 }
+.homepage {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+   background: radial-gradient(circle at 1.4% 1.4%, var(--color-2) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%) 
 
+}
 }
