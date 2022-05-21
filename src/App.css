@@ -227,16 +227,19 @@ justify-content: space-evenly;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4%, var(--color-2) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%)
+    /* background: radial-gradient(circle at 1.4% 1.4%, var(--color-2) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%) */
+    background-image: url('./img/white-horses-belye-loshadi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
 
 
 .mediapage {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%)
-
+  background-image: url('./img/flat\,750x\,075\,f-pad\,750x1000\,f8f8f8.u1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .aboutpage {

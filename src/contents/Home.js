@@ -1,5 +1,5 @@
 
-import img2 from './images/svenskatg.png';
+import img2 from './svenskaatg.png';
 
 import React, { Component } from 'react';
 class Home extends Component {
