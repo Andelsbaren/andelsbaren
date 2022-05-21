@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Sandoval', sans-serif;
-  src: local('Sandoval'), url(".//fonts/Sandoval.woff2") format('woff2');
-
-}  
+  font-family: "Sandoval";
+  src: url(".//Sandoval.woff2") format("woff2"),
+       url("/src/fonts/Sandoval.woff2") format("woff2");
+}
 
 @media screen and (min-width:320px) {
 
