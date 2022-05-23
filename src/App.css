@@ -218,9 +218,9 @@ p {
     font-family: 'Alegreya Sans SC';
 
     color: #fff;
-    margin-top: 12rem;
+    margin-top: 8rem;
     font-weight: 500;
-    font-size:20px;
+    font-size:18px;
     width: 350px;
     display: inline-block
   }
@@ -257,10 +257,10 @@ p {
   }
   .textnormal2 {
     font-family: 'Alegreya Sans SC';
-    font-size: 26px;
+    font-size: 16px;
     color: #fff;
-    margin-top: 15rem;
-    font-weight: 600;
+    margin-top: 8rem;
+    font-weight: 500;
     width: 350px;
     display: inline-block
   }
@@ -320,13 +320,13 @@ p {
     background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
   }
   .atg-button {
-    width: 100px;
-    height: 100%;
+    width: 70px;
+    height: 70px;
     box-shadow: 2px 3px 1px 3px #014f9f
   }
   .svenska-button {
-    width: 100px;
-    height: 100%;
+    width: 70px;
+    height: 70px;
     box-shadow: 2px 3px 1px 3px red
   }
   .homepage {
