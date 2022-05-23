@@ -42,7 +42,7 @@ function NavBar() {
               Om Oss
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink
               exact
               to="/Media"
@@ -51,8 +51,8 @@ function NavBar() {
               onClick={handleClick}
             >
               Media
-            </NavLink>
-          </li>
+            </NavLink> */}
+          {/* </li> */}
           {/* <li className="nav-item">
             <NavLink
               exact

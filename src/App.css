@@ -1,106 +1,78 @@
 @font-face {
-  font-family: 'Sandoval', sans-serif;
-  src: local('Sandoval'), url("./fonts/Sandoval.woff2") format('woff2');
-
-}  
-
-
-
-
-                
-
+  font-family: 'Sandoval',sans-serif;
+  src: local('Sandoval'),url("./fonts/Sandoval.woff2") format('woff2')
+}
 :root {
   --color-1: #186cb8;
   --color-2: red;
   --color-4: #f1b211;
   --color-3: #027b9a;
-  --color-5: #171717;
-
+  --color-5: #171717
 }
 .aboutpage {
   width: 100%;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
-/* background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%) */
-background-image: url('/src/img/stor.webp');
-
-} 
-
-.textcolor{
-  color:#014F9F;
-  font-weight: bold;
+  background-image: url('/src/img/stor.webp')
 }
-.textcolor2{
-  color:white;
-  border: 1px solid black;
-  background-color:#014F9F;
-font-weight: bold;
+.textcolor {
+  color: #014f9f;
+  font-weight: 700
 }
-.textcolor3{
-  color:red;
-font-weight: 700;
+.textcolor2 {
+  color: #fff;
+  border: 1px solid #000;
+  background-color: #014f9f;
+  font-weight: 700
 }
-
-
+.textcolor3 {
+  color: red;
+  font-weight: 700
+}
 body {
   margin: 0 auto;
-  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%)
-
- 
+  background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
 }
-.hr2{
-
+.hr2 {
   width: 80%;
-  height:3px;
-  background-color: #014F9F;
-
+  height: 3px;
+  background-color: #014f9f
 }
-
-.hr3{
-
+.hr3 {
   width: 70%;
-  height:3px;
-  background-color: red;
-
-
+  height: 3px;
+  background-color: red
 }
-.hr4{
+.hr4 {
   transform: rotate(45deg);
   width: 200px;
-  height:1px;
-  background-color: #014F9F;
-margin-top:2rem;
-
-margin-bottom:1rem;
-  margin-left:-9rem;
+  height: 1px;
+  background-color: #014f9f;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: -9rem
 }
-.hr5{
+.hr5 {
   transform: rotate(45deg);
   width: 50px;
-  height:1px;
+  height: 1px;
   background-color: red;
-  margin-top:4rem;
-
-  margin-bottom:1rem;
-    margin-left:-6rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: -6rem
 }
-
 .feed {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 2rem
 }
-
-
 p {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC',sans-serif;
   color: #171717;
-
   font-weight: 500;
   padding: .5rem
 }
-
 .col-8 {
   position: relative;
   width: 100%;
@@ -111,7 +83,6 @@ p {
   border-radius: 1rem;
   box-shadow: #000
 }
-
 .navbar-logo {
   max-width: 10rem;
   max-height: 10rem;
@@ -119,328 +90,238 @@ p {
   display: flex;
   margin-bottom: 0;
   margin-left: 1rem;
-  border: 3px solid white
+  border: 3px solid #fff
 }
-
 @media (min-width:1024px) {
-  
- .container {
-  display:inline-flex;
-  height:100%;
-width: 90%;
-   justify-content: center;
-
- }
-
-  .textnormal2 {
-    color:white;
-    font-family: 'Alegreya Sans SC';
-    font-size:24px;
-    margin-top:16rem;
-      font-weight: 300;
-width:350px;
+  .container {
     display: inline-flex;
-  
+    height: 100%;
+    width: 90%;
+    justify-content: center
+  }
+  .textnormal2 {
+    color: #fff;
+    font-family: 'Alegreya Sans SC';
+    font-size: 24px;
+    margin-top: 16rem;
+    font-weight: 300;
+    width: 350px;
+    display: inline-flex
   }
   .textabout {
     padding: 1rem;
     font-family: 'Alegreya Sans SC';
-  color:black(255, 255, 255);
-  height:40%;
-      font-weight: 600;
-  width:500px;
-  padding:5rem;
-  opacity: 80%;
-  font-size: 26px;
-  display: inline-block;
-  background-color: white;
-  border: 3px solid red;
-  border-radius: 1rem;
-
-
-  
-  
+    color: black(255,255,255);
+    height: 40%;
+    font-weight: 600;
+    width: 500px;
+    padding: 5rem;
+    opacity: 80%;
+    font-size: 26px;
+    display: inline-block;
+    background-color: #fff;
+    border: 3px solid red;
+    border-radius: 1rem
   }
-  
-
-
-  .svenska-button{
-   padding:1rem;
+  .svenska-button {
+    padding: 1rem
   }
-
   .atg-button {
-    padding:1rem;    transform: scale(1.019)
+    padding: 1rem;
+    transform: scale(1.019)
   }
-
-  .servicespage{
-height:40%;
+  .servicespage {
+    height: 40%;
     width: 100%;
- 
     text-align: center;
     background-image: url('./img/samarberte.png');
-    background-position:top;
-
-  background-repeat: no-repeat;
-  background-size:contain ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain
   }
-
-  .textnormal{
+  .textnormal {
     font-size: 26px;
-    color:white;
+    color: #fff
   }
   .contactpage {
     width: 100%;
     height: 100%;
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%);
-    }
-
-
-
-
-
-
+    background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,transparent 45%)
+  }
 }
-
 @media (max-width:576px) {
-
-.container{
-display:flex;
-justify-content: space-evenly;
-
-}
-
-
+  .container {
+    display: flex;
+    justify-content: space-evenly
+  }
   .feed {
     display: flex;
     justify-content: center
   }
-
   .contactpage {
     width: 100%;
     height: 100%;
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,transparent 45%)
   }
-
   .homepage {
     width: 100%;
     height: 100%;
     text-align: center;
-     background: radial-gradient(circle at 1.4% 1.4%, var(--color-2) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%) 
-
+    background: radial-gradient(circle at 1.4% 1.4%,var(--color-2) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
   }
-
-
-.mediapage {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%)
-
-}
-
-.aboutpage {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-/* background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%) */
-background-image: url('/src/img/stor.webp');
-}
-
-.servicespage {
- width: 100%;
-
-
-
-  text-align: center;
-  background-image: url('./img/samarberte.png');
-  background-position:auto;
-
-background-repeat: no-repeat;
-background-size:contain ;
-
-
-}
-
-
-.svenska-button {
-display:inline-flex;
-box-shadow: 2px 2px 0px 0px rgba(255, 0, 0, 0.836);
-  width: 60px;
-  height: 60px;
-
-
-}
-
-.atg-button {
-  display:inline-flex;
-  box-shadow: 2px 2px 0px 0px #014F9F;
-  width: 60px;
-  height:60px;
-
-}
-
-.textnormal2 {
-  font-family: 'Alegreya Sans SC';
-  font-size:22px;
-  color:white;
-  margin-top:8rem;
-    font-weight: 500;
-width:350px;
-  display: inline-block;
-
-}
-
-.textabout{
-  padding: 1rem;
-  font-family: 'Alegreya Sans SC';
-color:black(255, 255, 255);
-
-    font-weight: 600;
-
-padding:3rem;
-opacity: 80%;
-font-size: 23px;
-display: inline-block;
-background-color: white;
-border: 3px solid red;
-border-radius: 1rem;
-
-
-
-  
-}
-.textnormal{
-  color:white
-}
-
-
-
-
-}
-
-@media only screen and (min-width :577px) and (max-width :1024px) and (orientation :portrait){
-
-.servicespage{
-
-  width: 100%;
-height:41%;
-  text-align: center;
-  background-image: url('./img/samarberte.png');
-  background-position:top;
- 
-
-background-repeat: no-repeat;
-background-size:contain ;
-}
-
-.textnormal{
-  color:white;
-}
-
-
-.textnormal2 {
-  font-family: 'Alegreya Sans SC';
-  font-size:26px;
-  color:white;
-  margin-top:15rem;
-    font-weight: 600;
-width:350px;
-  display: inline-block;
-
-}
-.textabout {
-  padding: 1rem;
-  font-family: 'Alegreya Sans SC';
-color:black(255, 255, 255);
-height:40%;
-    font-weight: 600;
-width:500px;
-padding:5rem;
-opacity: 80%;
-font-size: 26px;
-display: inline-block;
-background-color: white;
-border: 3px solid red;
-border-radius: 1rem;
-
-
-
-}
-
-
-.contactpage {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%);
+  .mediapage {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
   }
-
-  
-  .feed {
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-  }
-
-  .container{
-    display:flex;
-    justify-content: space-evenly;
-     width: 100%;
-    padding-bottom:2rem;
-    height:auto;
-
- }
-    
-  .container2{
-    display:flex;
-    justify-content: space-evenly;
-height: auto;
-    padding-bottom:2rem;
-    width: 5rem;  
-  height: auto;
-  }
-
-
   .aboutpage {
     width: 100%;
     height: 100%;
-      text-align: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    /* background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #000 45%) */
-    background-image: url('/src/img/stor.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: url('/src/img/stor.webp')
+  }
+  .servicespage {
+    width: 100%;
+    text-align: center;
+    background-image: url('./img/samarberte.png');
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: contain
+  }
+  .svenska-button {
+    display: inline-flex;
+    box-shadow: 2px 2px 0 0 rgba(255,0,0,.836);
+    width: 60px;
+    height: 60px
+  }
+  .atg-button {
+    display: inline-flex;
+    box-shadow: 2px 2px 0 0 #014f9f;
+    width: 60px;
+    height: 60px
+  }
+  .textnormal2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 22px;
+    color: #fff;
+    margin-top: 8rem;
+    font-weight: 500;
+    width: 350px;
+    display: inline-block
+  }
+  .textabout {
+    padding: 1rem;
+    font-family: 'Alegreya Sans SC';
+    color: black(255,255,255);
+    font-weight: 600;
+    padding: 3rem;
+    opacity: 80%;
+    font-size: 23px;
+    display: inline-block;
+    background-color: #fff;
+    border: 3px solid red;
+    border-radius: 1rem
+  }
+  .textnormal {
+    color: #fff
+  }
 }
-
-.mediapage {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%)
-
-}
-
-.atg-button{
-
-  width: 100px;
-  height: 100%;
-  box-shadow: 2px 3px 1px 3px #014F9F;
-
-}
-.svenska-button{
-
-  width: 100px;
-  height: 100%;
-  box-shadow: 2px 3px 1px 3px red;
-}
-.homepage {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-   background: radial-gradient(circle at 1.4% 1.4%, var(--color-2) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, #171717 45%) 
-
-}
+@media only screen and (min-width :577px) and (max-width :1024px) and (orientation :portrait) {
+  .servicespage {
+    width: 100%;
+    height: 41%;
+    text-align: center;
+    background-image: url('./img/samarberte.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain
+  }
+  .textnormal {
+    color: #fff
+  }
+  .textnormal2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 26px;
+    color: #fff;
+    margin-top: 15rem;
+    font-weight: 600;
+    width: 350px;
+    display: inline-block
+  }
+  .textabout {
+    padding: 1rem;
+    font-family: 'Alegreya Sans SC';
+    color: black(255,255,255);
+    height: 40%;
+    font-weight: 600;
+    width: 500px;
+    padding: 5rem;
+    opacity: 80%;
+    font-size: 26px;
+    display: inline-block;
+    background-color: #fff;
+    border: 3px solid red;
+    border-radius: 1rem
+  }
+  .contactpage {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,transparent 45%)
+  }
+  .feed {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem
+  }
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 2rem;
+    height: auto
+  }
+  .container2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    padding-bottom: 2rem;
+    width: 5rem;
+    height: auto
+  }
+  .aboutpage {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/src/img/stor.webp')
+  }
+  .mediapage {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
+  }
+  .atg-button {
+    width: 100px;
+    height: 100%;
+    box-shadow: 2px 3px 1px 3px #014f9f
+  }
+  .svenska-button {
+    width: 100px;
+    height: 100%;
+    box-shadow: 2px 3px 1px 3px red
+  }
+  .homepage {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: radial-gradient(circle at 1.4% 1.4%,var(--color-2) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
+  }
 }
