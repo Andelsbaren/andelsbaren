@@ -34,7 +34,6 @@ body {
   margin: 0 auto;
   background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
 }
-<<<<<<< HEAD
 .hr2{
 
   width: 55%;
@@ -53,17 +52,6 @@ body {
   
 
 
-=======
-.hr2 {
-  width: 80%;
-  height: 3px;
-  background-color: #014f9f
-}
-.hr3 {
-  width: 70%;
-  height: 3px;
-  background-color: red
->>>>>>> 935ae4d7e1779c1f80d6a3a8a9bbfc1998b672b2
 }
 .hr4 {
   transform: rotate(45deg);

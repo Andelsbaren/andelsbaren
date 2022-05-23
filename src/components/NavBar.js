@@ -39,8 +39,7 @@ function NavBar() {
               className="nav-links"
               onClick={handleClick}
             >
-              Om Oss
-            </NavLink>
+              Om            </NavLink>
           </li>
           {/* <li className="nav-item">
             <NavLink

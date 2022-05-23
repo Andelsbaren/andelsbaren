@@ -13,7 +13,8 @@
   .homepage {
     width: 100%;
     height: 100%;
-    text-align: center
+    text-align: center;
+    background: radial-gradient(circle at 1.4% 1.4%,var(--color-2) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
   }
   .mediapage {
     width: 100%;
@@ -208,10 +209,10 @@
   .kophome {
     display: flex;
     justify-content: center;
-    margin-top: -.4rem;
+    margin-top: 0rem;
     padding-bottom: .6rem;
     font-family: Sandoval,sans-serif;
-    border-top: 3px solid #fff;
+    border-top: 2px solid #fff;
     letter-spacing: .2rem;
     text-transform: uppercase;
     color: #fff;
