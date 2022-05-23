@@ -291,3 +291,13 @@ font-size: 23px;
     }
   
 }
+
+
+
+@media (max-width: 389px){
+
+  .icon{
+    display: none;
+  }
+
+}
