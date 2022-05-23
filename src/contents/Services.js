@@ -11,10 +11,10 @@ class Services extends Component {
             {/* <img
           className="navbar-logo"
           src={img1}/> */}
- <p className="textnormal2"><br/><br/><br/>
+ <p className="textnormal2"><br/><br/><br/></p>
         {/* Andelsbaren är aktiv på de två dominerande spelplattformarna ATG
         Tillsammans samt Svenska Spels Spela Tillsammans. */}
-    
+        <p className="textnormal3">
     Klicka på någon av länkarna nedan för att komma dirket till
         Andelsbarens portaler.
       </p>
