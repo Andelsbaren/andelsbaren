@@ -21,6 +21,7 @@
     height: 100%;
     text-align: center
   }
+
   .kophome2 {
     display: flex;
     justify-content: center;
@@ -33,9 +34,9 @@
     text-transform: uppercase;
     background-color: transparent;
     color: #fff;
-
+padding:.4rem;
    
-    font-size: 2.1rem;
+    font-size: 1.8rem;
 
   }
   .kophome3 {
@@ -48,8 +49,11 @@
     border-bottom: 2px solid #fff;
     letter-spacing: .2rem;
     text-transform: uppercase;
+    background-color: transparent;
     color: #fff;
-    font-size: 2.1rem;
+padding:.4rem;
+   
+    font-size: 1.8rem;
 
   }
   .kophome {
@@ -58,26 +62,27 @@
     margin-top: -.34rem;
 
     font-family: Sandoval,sans-serif;
-    border-top: 2px solid white;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
     letter-spacing: .2rem;
     text-transform: uppercase;
+    background-color: transparent;
     color: #fff;
-    background-color: red;
-    font-size: 2.1rem;
-    padding-left: 1rem;
-    border-bottom: 2px solid #fff
+padding:.4rem;
+   
+    font-size: 1.8rem;
   }
   .navbar {
     font-family: 'Alegreya Sans SC';
     background-color: #171717;
     display: flex;
     height: 0rem;
-    justify-content: space-around;
-
+    align-content: flex-start;
+    justify-content: space-evenly;
+flex-wrap: nowrap;
     font-size: 1rem;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: stretch;
   }
   .nav-logo {
     color: red;
@@ -130,8 +135,9 @@
     background: #ffdd40
   }
   .nav-item .active {
-    color: red;
-    border: 1px solid #ffdd40;
+    color: black;
+    font-size: 1.2rem;
+ 
   }
   .nav-icon {
     display: none
@@ -150,7 +156,7 @@
   .nav-menu.active {
     visibilty: hidden;
     position: fixed;
-    top: 88px;
+    top: 78px;
     left: 0;
     width: 200px;
     border: 2px solid #fff;
@@ -184,13 +190,17 @@
     z-index: 2
   }
   .nav-horse {
-    display: block;
-    max-width: 50;
-    position: relative;
-    top: 55px;
-    right: 20;
-
-    cursor: pointer;
+    font-family: 'Alegreya Sans SC';
+    background-color: #171717;
+    display: flex-inline;
+    height: 0rem;
+    width: 100%;
+    justify-content: space-around;
+    display: inline-flex;
+flex-direction:row-reverse ;
+flex-wrap: nowrap;
+justify-content: flex-start;
+    font-size: 1rem;
  
   }
 }
@@ -198,11 +208,11 @@
   max-width: 3rem;
   max-height: 3rem;
   border-radius: 4rem;
-  margin-right: 19.5rem;
+display: flex;
   flex-grow: 1;
   margin-bottom: 0;
   color: red;
-  border: 1px solid #000
+  border: 1px solid white
 }
 .nav-container {
   height: 3.47rem;
@@ -214,15 +224,17 @@
     display: flex;
     justify-content: center;
     margin-top: -.34rem;
-    padding-bottom: .6rem;
+
     font-family: Sandoval,sans-serif;
     border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
     letter-spacing: .2rem;
     text-transform: uppercase;
-    color: #fff;
     background-color: transparent;
-    font-size: 2.1rem;
-    padding-left: 1rem;
+    color: #fff;
+padding:.4rem;
+   
+    font-size: 1.8rem;
 
     
     

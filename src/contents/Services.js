@@ -38,7 +38,7 @@ class Services extends Component {
       </a>
          </section>
          </div>    </div><br/>
-    <hr class="hr2"></hr> <hr class="hr3"></hr>
+
   </div>
             )
         }

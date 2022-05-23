@@ -21,6 +21,10 @@
     color: red;
 }
 
+.row3{
+    font-size: 1rem;
+}
+
 .fa:hover{
     color: red;
 }
@@ -48,7 +52,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 3rem;
+    height: 4.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -165,7 +169,7 @@ footer ul li {
         position: fixed;
         width: 100%;
         bottom: 0;
-        height: 3rem;
+        height: 4.5rem;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -238,6 +242,9 @@ footer ul li {
         padding-top:1rem;
         padding-bottom: .9rem;
   color: white;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
         width: 100%;
    
     

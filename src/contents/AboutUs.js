@@ -11,13 +11,13 @@ class AbousUs extends Component {
          <p class="textabout"> Andelsbaren samarbetar med ATG- och Svenska Spel ombudet<br/><span class="textcolor2"> Spelhörnan i 
                    Surahammar.</span><br/><br/><hr></hr>
                
-        <br></br>
-          Vi erbjuder en rad olika spel på trav och sport.
-  <hr></hr>
+        <br/>
+          Vi erbjuder en rad olika spel på trav och sport.<br/><br/>
+  <hr></hr><br/>
   Vi har flera av landets bästa spelläggare som komponerar spel på
           sajten    <span class="textcolor"> ATG-Tillsammans  </span>   och på  <span class="textcolor3">Svenska Spel Tillsammans.  </span>  
    
-          </p>
+          </p> 
 
         
     

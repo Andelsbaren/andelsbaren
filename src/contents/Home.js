@@ -10,6 +10,7 @@ class Home extends Component {
 
       <p className="kophome">ANDELSBAREN</p>
       
+
      <div className="feed">
      
      <iframe width="90%" height="320"  src="https://rss.app/embed/v1/carousel/OwveWzueq6zx2aSI" frameborder="0"></iframe>

@@ -7,7 +7,7 @@
   --color-2: red;
   --color-4: #f1b211;
   --color-3: #027b9a;
-  --color-5: #171717
+  --color-5: #171717;
 }
 .aboutpage {
   width: 100%;
@@ -33,7 +33,7 @@
 }
 body {
   margin: 0 auto;
-  background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
+  background: radial-gradient(circle at 1.4% 1.4%,var(--color-2) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
 }
 .hr2{
 
@@ -75,7 +75,7 @@ body {
 .feed {
   display: flex;
   justify-content: center;
-  margin-top: 2rem
+  margin-top: 5rem
 }
 p {
   font-family: 'Alegreya Sans SC',sans-serif;
@@ -107,7 +107,7 @@ p {
     display: inline-flex;
 height: 3rem;
     width: 90%;
-
+    margin-top: -1rem;
     justify-content: center
   }
   .textnormal3 {
@@ -116,33 +116,38 @@ height: 3rem;
     font-size: 18px;
 
     font-weight: 500;
-    width: 350px;
-margin-top: -2rem;
+    width: auto;
+margin-bottom:2rem;
+
     display: inline-flex;
 
   }
   .textnormal2 {
+    font-family: 'Alegreya Sans SC';
+margin-top:0rem;
+background-image: url('./img/samarberte.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+
+ height :17rem;
+   
+width: auto;
     color: #fff;
     font-family: 'Alegreya Sans SC';
-    font-size: 18px;
-    background-image: url('./img/samarberte.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    font-weight: 500;
-    width: auto;
-margin-top: -2rem;
 
-    height: 90%;
+  
+
+
   }
   .textabout {
   
     font-family: 'Alegreya Sans SC';
     color: black(255,255,255);
-    height: 41%;
+    height: 46%;
     font-weight: 600;
 
-    width: 350px;
+    width: 300px;
     padding: 1rem;
     opacity: 80%;
 
@@ -183,8 +188,19 @@ margin-top: -2rem;
     display: inline-flex;
 height: 4rem;
     width: 50%;
-    padding-top: 1rem;
+
     justify-content: space-evenly
+  }
+  .textnormal3 {
+    color: #fff;
+    font-family: 'Alegreya Sans SC';
+    font-size: 18px;
+margin-top:-1rem;
+    font-weight: 500;
+  
+
+    display: inline-flex;
+
   }
   .feed {
     display: flex;
@@ -239,16 +255,16 @@ height: 4rem;
   }
   .textnormal2 {
     font-family: 'Alegreya Sans SC';
-margin-top:5rem;
+margin-top:0rem;
 background-image: url('./img/samarberte.png');
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
 
- 
+ height :10rem;
     font-weight: 500;
     font-size:16px;
-
+width: auto;
     color: #fff;
     font-family: 'Alegreya Sans SC';
 
@@ -261,10 +277,10 @@ background-size: contain;
  
     font-family: 'Alegreya Sans SC';
     color: black(255,255,255);
-    height: 41%;
+    height: 42%;
     font-weight: 600;
 
-    width: 350px;
+    width: 300px;
     padding: 1rem;
     opacity: 80%;
 
@@ -281,23 +297,29 @@ background-size: contain;
   .servicespage {
     width: 100%;
     height: 50%;
-    text-align: center;
-    background-image: url('./img/samarberte.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain
+
   }
   .textnormal {
     color: #fff
   }
   .textnormal2 {
     font-family: 'Alegreya Sans SC';
-    font-size: 16px;
-    color: #fff;
-    margin-top: 8rem;
+margin-top:0rem;
+background-image: url('./img/samarberte.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+
+ height :10rem;
     font-weight: 500;
-    width: 350px;
-    display: inline-block
+    font-size:16px;
+width: auto;
+    color: #fff;
+    font-family: 'Alegreya Sans SC';
+
+  
+
+
   }
   .textabout {
     padding: 1rem;
@@ -305,7 +327,7 @@ background-size: contain;
     color: black(255,255,255);
     height: 40%;
     font-weight: 600;
-    width: 500px;
+    width: 300px;
     padding: 1rem;
     opacity: 80%;
 
