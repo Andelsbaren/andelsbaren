@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import NavBar from './components/NavBar';
 import Home from './contents/Home';
-import Media from './contents/Media';
+// import Media from './contents/Media';
 // import Contact from './contents/Contact';
 import Services from './contents/Services';
 import AboutUs from './contents/AboutUs';
@@ -25,9 +25,9 @@ function App() {
     <Route path="/aboutus">
     <AboutUs />
     </Route>
-    <Route path="/media">
+    {/* <Route path="/media">
     <Media />
-    </Route>
+    </Route> */}
     <Route path="/services">
     <Services />
     </Route>
