@@ -224,13 +224,14 @@ p {
     display: inline-block
   }
   .textabout {
-    padding: 1rem;
+ 
     font-family: 'Alegreya Sans SC';
     color: black(255,255,255);
     font-weight: 600;
     padding: 3rem;
     opacity: 80%;
-    font-size: 23px;
+    margin-top:-1rem;
+    font-size: 20px;
     display: inline-block;
     background-color: #fff;
     border: 3px solid red;
