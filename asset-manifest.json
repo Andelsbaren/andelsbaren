@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.465669cc.css",
-    "main.js": "/static/js/main.28b073e6.js",
+    "main.css": "/static/css/main.e5f2c9c5.css",
+    "main.js": "/static/js/main.921affc6.js",
     "static/media/samarberte.png": "/static/media/samarberte.9430e07a38512f00cb03.png",
     "static/media/stor.webp": "/static/media/stor.6cda037b4fc6c987c5df.webp",
     "static/media/Sandoval.woff2": "/static/media/Sandoval.5169467c72bf2383859c.woff2",
@@ -10,11 +10,11 @@
     "index.html": "/index.html",
     "static/media/atg-money-icon-rect-60x60-01 (2).svg": "/static/media/atg-money-icon-rect-60x60-01 (2).6d191eb586447941e3a3becdb3341283.svg",
     "static/media/svenskaspel_square.avif": "/static/media/svenskaspel_square.7600c856b1287b6bcabd.avif",
-    "main.465669cc.css.map": "/static/css/main.465669cc.css.map",
-    "main.28b073e6.js.map": "/static/js/main.28b073e6.js.map"
+    "main.e5f2c9c5.css.map": "/static/css/main.e5f2c9c5.css.map",
+    "main.921affc6.js.map": "/static/js/main.921affc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.465669cc.css",
-    "static/js/main.28b073e6.js"
+    "static/css/main.e5f2c9c5.css",
+    "static/js/main.921affc6.js"
   ]
 }
