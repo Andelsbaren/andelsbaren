@@ -181,7 +181,7 @@ flex-wrap: nowrap;
   .nav-icon {
     display: block;
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: 40;
     transform: translate(-100%,60%);
     font-size: 1.8rem;
