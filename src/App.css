@@ -75,13 +75,13 @@ body {
 .feed {
   display: flex;
   justify-content: center;
-  margin-top: 5rem
+  margin-top: 3rem
 }
 p {
   font-family: 'Alegreya Sans SC',sans-serif;
   color: #171717;
   font-weight: 500;
-  padding: .5rem
+
 }
 .col-8 {
   position: relative;
@@ -107,7 +107,7 @@ p {
     display: inline-flex;
 height: 3rem;
     width: 90%;
-    margin-top: -1rem;
+    margin-top: -3rem;
     justify-content: center
   }
   .textnormal3 {
@@ -122,17 +122,29 @@ margin-bottom:2rem;
     display: inline-flex;
 
   }
+  .svenska-button {
+    display: inline-flex;
+
+    width: 50px;
+    height: 50px
+  }
+  .atg-button {
+    display: inline-flex;
+ 
+    width: 50px;
+    height: 50px
+  }
   .textnormal2 {
     font-family: 'Alegreya Sans SC';
-margin-top:0rem;
+margin-top:-1.3rem;
 background-image: url('./img/samarberte.png');
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
-
- height :17rem;
+display: flex;
+ height :100%;
    
-width: auto;
+width: 100%;
     color: #fff;
     font-family: 'Alegreya Sans SC';
 
@@ -144,13 +156,14 @@ width: auto;
   
     font-family: 'Alegreya Sans SC';
     color: black(255,255,255);
-    height: 46%;
+    height: 54%;
     font-weight: 600;
+    font-size: 17px;
 
-    width: 300px;
-    padding: 1rem;
+    width: 40%;
+  
     opacity: 80%;
-
+padding:.4rem;
     display: inline-block;
     background-color: #fff;
     border: 3px solid red;
@@ -244,24 +257,24 @@ margin-top:-1rem;
   .svenska-button {
     display: inline-flex;
 
-    width: 60px;
-    height: 60px
+    width: 50px;
+    height: 50px
   }
   .atg-button {
     display: inline-flex;
  
-    width: 60px;
-    height: 60px
+    width: 50px;
+    height: 50px
   }
   .textnormal2 {
     font-family: 'Alegreya Sans SC';
-margin-top:0rem;
+margin-top:-1rem;
 background-image: url('./img/samarberte.png');
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
 
- height :10rem;
+ height :14rem;
     font-weight: 500;
     font-size:16px;
 width: auto;
@@ -277,11 +290,11 @@ width: auto;
  
     font-family: 'Alegreya Sans SC';
     color: black(255,255,255);
-    height: 42%;
+    height: 50%;
     font-weight: 600;
 
-    width: 300px;
-    padding: 1rem;
+    width: 70%;
+    padding: 1.2rem;
     opacity: 80%;
 
     display: inline-block;
@@ -325,12 +338,12 @@ width: auto;
     padding: 1rem;
     font-family: 'Alegreya Sans SC';
     color: black(255,255,255);
-    height: 40%;
+    height: 50%;
     font-weight: 600;
-    width: 300px;
+    width: 50%;
     padding: 1rem;
     opacity: 80%;
-
+font-size: 28px;
     display: inline-block;
     background-color: #fff;
     border: 3px solid red;
@@ -377,13 +390,13 @@ width: auto;
     background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
   }
   .atg-button {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     box-shadow: 2px 3px 1px 3px #014f9f
   }
   .svenska-button {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     box-shadow: 2px 3px 1px 3px red
   }
   .homepage {
