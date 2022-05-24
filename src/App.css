@@ -68,7 +68,7 @@ body {
 .feed {
   display: flex;
   justify-content: center;
-  margin-top: -1.4rem
+  margin-top: 2rem
 }
 p {
   font-family: 'Alegreya Sans SC',sans-serif;

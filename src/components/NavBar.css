@@ -114,6 +114,7 @@ flex-wrap: nowrap;
     text-decoration: none;
     display: flex;
     height: 100%;
+    font-size: 18px;
     border-bottom: 3px solid transparent
   }
   .fa-code {
