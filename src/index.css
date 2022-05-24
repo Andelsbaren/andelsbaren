@@ -69,7 +69,7 @@ footer .logo {
 footer .row {
     display: flex;
     color: #fff;
-width: 74%;
+width: 30%;
 flex-direction: row-reverse;
 
  
@@ -84,7 +84,7 @@ footer .row2 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
-
+width: 50%;
 
 
 }
