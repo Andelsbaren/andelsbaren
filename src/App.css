@@ -68,7 +68,7 @@ body {
 .feed {
   display: flex;
   justify-content: center;
-  margin-top: 3rem
+  margin-top: -1.4rem
 }
 p {
   font-family: 'Alegreya Sans SC',sans-serif;
@@ -188,6 +188,7 @@ p {
   }
   .feed {
     display: flex;
+    margin-top: 0;
     justify-content: center
   }
   .contactpage {
@@ -308,7 +309,7 @@ p {
   .feed {
     display: flex;
     justify-content: center;
-    margin-top: 5rem
+    margin-top: 0rem
   }
   .container {
     display: flex;
