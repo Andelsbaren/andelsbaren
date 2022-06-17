@@ -9,7 +9,7 @@ function NavBar() {
   const handleClick = () => setClick(!click);
   return (
     <>    <div className="nav-container">
-<iframe width="100%" height="70" src="https://rss.app/embed/v1/ticker/HEVPxNzPDSbFOFcP" frameborder="0"></iframe>
+<iframe width="100%" height="70"src="https://rss.app/embed/v1/ticker/HEVPxNzPDSbFOFcP" frameborder="0"></iframe>
    </div> 
       <nav className="navbar">
 {/* 
