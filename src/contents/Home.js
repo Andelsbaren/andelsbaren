@@ -12,7 +12,7 @@ class Home extends Component {
       
 
      <div className="feed">
-     <iframe width="80%" height="480"  src="https://rss.app/embed/v1/carousel/CkMx2kshr2x67xqj" frameborder="0"></iframe>
+     <iframe width="80%" height="360"  src="https://rss.app/embed/v1/carousel/MntF8qf90DE9cxE4" frameborder="0"></iframe>
      </div>
      {/* <img
           className="icon"
