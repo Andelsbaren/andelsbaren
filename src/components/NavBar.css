@@ -157,8 +157,8 @@ flex-wrap: nowrap;
   .nav-menu.active {
     visibilty: hidden;
     position: fixed;
-    top: 78px;
-    left: 0;
+    top: 23px;
+    left: -1;
     width: 200px;
     border: 2px solid #fff;
     opacity: 90%;
@@ -182,7 +182,7 @@ flex-wrap: nowrap;
   .nav-icon {
     display: block;
     position: absolute;
-    top: 45px;
+    top: -7px;
     left: 40;
     transform: translate(-100%,60%);
     font-size: 1.8rem;
@@ -216,7 +216,7 @@ display: flex;
   border: 1px solid white
 }
 .nav-container {
-  height: 3.47rem;
+ 
   width: auto;
   position: sticky
 }

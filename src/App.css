@@ -181,8 +181,8 @@ p {
   .textnormal3 {
     color: #fff;
     font-family: 'Alegreya Sans SC';
-    font-size: 18px;
-    margin-top: -1rem;
+    font-size: 20px;
+    margin-top:2rem;
     font-weight: 500;
     display: inline-flex
   }
@@ -249,16 +249,21 @@ p {
   .textabout {
     font-family: 'Alegreya Sans SC';
     color: black(255,255,255);
-
+    margin-top: 2rem;
     font-weight: 600;
     width: 70%;
+    font-size: 18px;
     padding: 1.2rem;
     opacity: 80%;
     display: inline-block;
     background-color: #fff;
     border: 3px solid red;
-    border-radius: 1rem
-  }
+    border-radius: 1rem  ;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
   .textnormal {
     color: #fff
   }
