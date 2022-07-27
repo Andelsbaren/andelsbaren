@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.456b8ee7.css",
+    "main.css": "/static/css/main.ab8ea462.css",
     "main.js": "/static/js/main.49796440.js",
     "static/media/samarberte.png": "/static/media/samarberte.9430e07a38512f00cb03.png",
     "static/media/stor.webp": "/static/media/stor.6cda037b4fc6c987c5df.webp",
@@ -10,11 +10,11 @@
     "index.html": "/index.html",
     "static/media/atg-money-icon-rect-60x60-01 (2).svg": "/static/media/atg-money-icon-rect-60x60-01 (2).6d191eb586447941e3a3becdb3341283.svg",
     "static/media/svenskaspel_square.avif": "/static/media/svenskaspel_square.7600c856b1287b6bcabd.avif",
-    "main.456b8ee7.css.map": "/static/css/main.456b8ee7.css.map",
+    "main.ab8ea462.css.map": "/static/css/main.ab8ea462.css.map",
     "main.49796440.js.map": "/static/js/main.49796440.js.map"
   },
   "entrypoints": [
-    "static/css/main.456b8ee7.css",
+    "static/css/main.ab8ea462.css",
     "static/js/main.49796440.js"
   ]
 }
