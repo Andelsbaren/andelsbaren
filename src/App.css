@@ -127,7 +127,7 @@ p {
     background-image: url('./img/samarberte.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+     background-size: contain;
     display: flex;
     height: 100%;
     width: 100%;
@@ -137,12 +137,12 @@ p {
   .textabout {
     font-family: 'Alegreya Sans SC';
     color: black(255,255,255);
-
-    font-weight: 600;
-    font-size: 17px;
-    width: 40%;
+    height: 50%;
+    font-weight: 200;
+    font-size: 27px;
+    width:50%;
     opacity: 80%;
-    padding: .4rem;
+    padding: .9rem;
     display: inline-block;
     background-color: #fff;
     border: 3px solid red;
