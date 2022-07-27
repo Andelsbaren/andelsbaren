@@ -113,13 +113,13 @@ p {
   }
   .svenska-button {
     display: inline-flex;
-    width: 50px;
-    height: 50px
+    width: 80px;
+    height: 80px
   }
   .atg-button {
     display: inline-flex;
-    width: 50px;
-    height: 50px
+    width: 80px;
+    height: 80px
   }
   .textnormal2 {
     font-family: 'Alegreya Sans SC';
@@ -303,8 +303,12 @@ p {
     display: inline-block;
     background-color: #fff;
     border: 3px solid red;
-    border-radius: 1rem
-  }
+    border-radius: 1rem  ;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
   .contactpage {
     width: 100%;
     height: 100%;
@@ -344,13 +348,13 @@ p {
     background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
   }
   .atg-button {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     box-shadow: 2px 3px 1px 3px #014f9f
   }
   .svenska-button {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     box-shadow: 2px 3px 1px 3px red
   }
   .homepage {
