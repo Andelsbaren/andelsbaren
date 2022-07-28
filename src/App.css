@@ -33,7 +33,7 @@
 }
 body {
   margin: 0 auto;
-  background: radial-gradient(circle at 1.4% 1.4%,var(--color-2) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
+  background: radial-gradient(circle at 1.4% 1.4%,#001bbe 3%,#ab888800 40%),radial-gradient(circle at 5.5% 3%,#867b7b 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,#764242 25%,#000000 45%);
 }
 .hr2 {
   width: 55%;
@@ -113,13 +113,13 @@ p {
   }
   .svenska-button {
     display: inline-flex;
-    width: 50px;
-    height: 50px
+    width: 70px;
+    height: 70px
   }
   .atg-button {
     display: inline-flex;
-    width: 50px;
-    height: 50px
+    width: 70px;
+    height: 70px
   }
   .textnormal2 {
     font-family: 'Alegreya Sans SC';
@@ -139,7 +139,7 @@ p {
     color: black(255,255,255);
     height: 50%;
     font-weight: 200;
-    font-size: 27px;
+    font-size: 23px;
     width:50%;
     opacity: 80%;
     padding: .9rem;
@@ -153,8 +153,12 @@ p {
   }
   .atg-button {
     padding: 1rem;
-    transform: scale(1.019)
-  }
+    transform: scale(1.019)  ;
+    -webkit-transform: scale(1.019);
+    -moz-transform: scale(1.019);
+    -ms-transform: scale(1.019);
+    -o-transform: scale(1.019);
+}
   .servicespage {
     width: auto;
     height: 40%;
@@ -224,13 +228,13 @@ p {
   }
   .svenska-button {
     display: inline-flex;
-    width: 50px;
-    height: 50px
+    width: 70px;
+    height: 70px
   }
   .atg-button {
     display: inline-flex;
-    width: 50px;
-    height: 50px
+    width: 70px;
+    height: 70px
   }
   .textnormal2 {
     font-family: 'Alegreya Sans SC';
@@ -259,10 +263,10 @@ p {
     background-color: #fff;
     border: 3px solid red;
     border-radius: 1rem  ;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+    -webkit-border-radius: 1rem  ;
+    -moz-border-radius: 1rem  ;
+    -ms-border-radius: 1rem  ;
+    -o-border-radius: 1rem  ;
 }
   .textnormal {
     color: #fff
@@ -299,12 +303,16 @@ p {
     width: 50%;
     padding: 1rem;
     opacity: 80%;
-    font-size: 28px;
+    font-size: 23px;
     display: inline-block;
     background-color: #fff;
     border: 3px solid red;
-    border-radius: 1rem
-  }
+    border-radius: 1rem  ;
+    -webkit-border-radius: 1rem  ;
+    -moz-border-radius: 1rem  ;
+    -ms-border-radius: 1rem  ;
+    -o-border-radius: 1rem  ;
+}
   .contactpage {
     width: 100%;
     height: 100%;
@@ -344,13 +352,13 @@ p {
     background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
   }
   .atg-button {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     box-shadow: 2px 3px 1px 3px #014f9f
   }
   .svenska-button {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     box-shadow: 2px 3px 1px 3px red
   }
   .homepage {

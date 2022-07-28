@@ -1,8 +1,6 @@
 import img1 from './images/svenskaspel_square.avif' 
 import img2 from './images/atg-money-icon-rect-60x60-01 (2).svg'
 
-import img3 from './svenskaatg.png';
-
 import React, { Component } from 'react';
 class Home extends Component {
   render() {
@@ -23,19 +21,19 @@ Klicka på någon av länkarna nedan för att komma dirket till
  <section className='svenska-button'> 
   <a
     href="https://spela.svenskaspel.se/spela-tillsammans/ombudslag/23563-andelsbaren---spelhornan"
-    target="_blank" >
+    target="_blank" rel="noreferrer" >
     <img
       className="svenska-button"
-      src={img1}/>
+      src={img1} alt="svenska"/>
   </a>
        </section>
        <div className="container2"> 
        <section className='atg-button'>
 
-  <a href="https://www.atg.se/spelhornansurahammar" target="_blank">
+  <a href="https://www.atg.se/spelhornansurahammar" target="_blank" rel="noreferrer">
     <img
       className="atg-button"
-      src={img2}/>
+      src={img2} alt="atgs"/>
   </a>
      </section>
      </div>    </div><br/>
