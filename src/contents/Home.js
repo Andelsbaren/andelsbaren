@@ -1,4 +1,4 @@
-import img1 from './images/svenskaspel_square.avif' 
+import img1 from './images/svenskaratt.jpg' 
 import img2 from './images/atg-money-icon-rect-60x60-01 (2).svg'
 
 import React, { Component } from 'react';
