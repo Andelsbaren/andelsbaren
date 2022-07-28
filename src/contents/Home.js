@@ -14,7 +14,7 @@ class Home extends Component {
     {/* Andelsbaren är aktiv på de två dominerande spelplattformarna ATG
     Tillsammans samt Svenska Spels Spela Tillsammans. */}
     <p className="textnormal3">
-Klicka på någon av länkarna nedan för att komma dirket till
+Klicka på någon av länkarna nedan för att komma direkt till
     Andelsbarens portaler.
   </p>
   <div className="container"> 
