@@ -33,9 +33,7 @@
 }
 body {
   margin: 0 auto;
-
-  background: radial-gradient(circle at 1.4% 1.4%,red 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,red 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,red 25%,#1d23e6 45%);
-
+  background: radial-gradient(circle at 1.4% 1.4%,#001bbe 3%,#ab888800 40%),radial-gradient(circle at 5.5% 3%,#867b7b 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,#764242 25%,#000000 45%);
 }
 .hr2 {
   width: 55%;
