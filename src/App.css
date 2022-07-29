@@ -65,7 +65,11 @@ body {
   background-color: red;
   margin-top: 4rem;
   margin-bottom: 1rem;
-  margin-left: -6rem
+  margin-left: -6rem;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
 }
 .feed {
   display: flex;
@@ -115,7 +119,7 @@ p {
   }
   .svenska-button {
     display: inline-flex;
-    width: 70px;
+    width: 90px;
     height: 70px
   }
   .atg-button {
@@ -156,10 +160,10 @@ p {
   .atg-button {
     padding: 1rem;
     transform: scale(1.019)  ;
-    -webkit-transform: scale(1.019);
-    -moz-transform: scale(1.019);
-    -ms-transform: scale(1.019);
-    -o-transform: scale(1.019);
+    -webkit-transform: scale(1.019)  ;
+    -moz-transform: scale(1.019)  ;
+    -ms-transform: scale(1.019)  ;
+    -o-transform: scale(1.019)  ;
 }
   .servicespage {
     width: auto;
@@ -230,13 +234,13 @@ p {
   }
   .svenska-button {
     display: inline-flex;
-    width: 70px;
-    height: 70px
+    width: 141px;
+    height: 93px
   }
   .atg-button {
     display: inline-flex;
-    width: 70px;
-    height: 70px
+    width: 131px;
+    height: 93px
   }
   .textnormal2 {
     font-family: 'Alegreya Sans SC';
@@ -289,7 +293,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 10rem;
+    height: 29rem;
     font-weight: 500;
     font-size: 16px;
     width: auto;
@@ -328,15 +332,15 @@ p {
   }
   .container {
     display: flex;
-    justify-content: space-evenly;
+
     width: 100%;
     height: auto
   }
   .container2 {
     display: flex;
     justify-content: space-evenly;
-    height: auto;
-    width: 5rem;
+   
+    width: 100px;
     height: auto
   }
   .aboutpage {
@@ -354,13 +358,13 @@ p {
     background: radial-gradient(circle at 1.4% 1.4%,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40%,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25%,#171717 45%)
   }
   .atg-button {
-    width: 70px;
-    height: 70px;
+    width: 131px;
+    height: 128px;
     box-shadow: 2px 3px 1px 3px #014f9f
   }
   .svenska-button {
-    width: 70px;
-    height: 70px;
+    width: 181px;
+    height: 128px;
     box-shadow: 2px 3px 1px 3px red
   }
   .homepage {

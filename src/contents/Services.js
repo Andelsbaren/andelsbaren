@@ -22,7 +22,7 @@ class Services extends Component {
      <section className='svenska-button'> 
       <a
         href="https://spela.svenskaspel.se/spela-tillsammans/ombudslag/23563-andelsbaren---spelhornan"
-        target="_blank" rel="noreferrer" >
+        target="_blank" >
         <img
           className="svenska-button"
           src={img1} alt=""/>
